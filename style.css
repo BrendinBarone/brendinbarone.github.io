@@ -1,7 +1,8 @@
   h1 {
     font-size: 64px;
     margin-bottom: -15px;
-    color: #995000;
+    color: #e60000;
+    text-shadow: 3px 2px black;
   }
   
   h2 {
@@ -11,13 +12,15 @@
   h3 {
     margin-bottom: -20px;
     font-size: 32px;
-    color: white;
+    color: #e60000;
+    text-shadow: 1px 2px black;
   }
   
   h4 {
     margin-bottom: -15px;
     font-size: 24px;
-    color: #993600;
+    color: black;
+    text-shadow: 1px 1px #e60000;
   }
   
   h5 {
@@ -31,19 +34,29 @@
   }
   
   #container {
+    display: block;
+    margin: 5 auto;
+    width: 40%;
     text-align: center;
-    background-color: #363636;
-    color: #989898
+    background-color: silver;
+    width: 700px;
+    color: black
   }
   #contact {
-    margin-bottom: -15px;
-    border: 5px;
+    margin-bottom: 25px;
   }
   #profile {
     margin-bottom: -15px;
+    border-top: 3px dashed #800000;
+    border-bottom: 3px dashed #800000;
   }
   #education {
     margin-bottom: -15px;
+    border-bottom: 3px dashed #800000;
   }
   #workexperience {
+    padding-bottom: 15px;
+  }
+  body {
+    background: url("https://addons.opera.com/media/CACHE/images/themes/75/37875/1.0-rev1/images/1b6b1378-270e-43ab-b3ac-9e5848754b3e/1fe310acbc8463f5c615640eee529943.jpg")
   }
