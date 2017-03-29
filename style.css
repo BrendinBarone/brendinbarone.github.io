@@ -41,7 +41,7 @@
     margin: 10 auto;
     text-align: center;
     background: silver;
-    min-width: 800px;
+    width: 75%;
     color: black
   }
   #contact {
