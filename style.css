@@ -1,5 +1,7 @@
-  h1 {
+ h1 {
     font-size: 64px;
+    font-family: "Lucida Grande", sans-serif;
+    font-variant: small-caps;
     margin-bottom: -15px;
     color: #e60000;
     text-shadow: 3px 2px black;
@@ -10,17 +12,19 @@
   }
   
   h3 {
+    font-family: "Lucida Sans Unicode", sans-serif;
     margin-bottom: -20px;
     font-size: 32px;
-    color: #e60000;
-    text-shadow: 1px 2px black;
+    color: black;
+    text-shadow: 1px 1px #e60000;
+    font-weight: bold;
   }
   
   h4 {
-    margin-bottom: -15px;
-    font-size: 24px;
+    margin-bottom: -10px;
+    font-size: 20px;
     color: black;
-    text-shadow: 1px 1px #e60000;
+    text-shadow: 0px 1px #e60000;
   }
   
   h5 {
@@ -38,25 +42,26 @@
     margin: 5 auto;
     width: 40%;
     text-align: center;
-    background-color: silver;
-    width: 700px;
+    background: silver;
+    width: 780px;
     color: black
   }
   #contact {
     margin-bottom: 25px;
   }
   #profile {
-    margin-bottom: -15px;
-    border-top: 3px dashed #800000;
-    border-bottom: 3px dashed #800000;
+    font-style: italic;
+    margin-bottom: -50px;
+    border-top: 3px groove #ffaaaa;
+    border-bottom: 3px groove #ffaaaa;
   }
   #education {
+    padding: 25px;
     margin-bottom: -15px;
-    border-bottom: 3px dashed #800000;
+    border-bottom: 3px groove #ffaaaa;
   }
   #workexperience {
     padding-bottom: 15px;
   }
   body {
     background: url("https://addons.opera.com/media/CACHE/images/themes/75/37875/1.0-rev1/images/1b6b1378-270e-43ab-b3ac-9e5848754b3e/1fe310acbc8463f5c615640eee529943.jpg")
-  }
