@@ -47,17 +47,17 @@
     color: black
   }
   #contact {
-    border: 3px groove #ffaaaa;
+    border: 5px groove #ffaaaa;
   }
   #profile {
     font-style: italic;
-    border: 3px groove #ffaaaa;    
+    border: 5px groove #ffaaaa;    
   }
   #education {
-    border: 3px groove #ffaaaa;   
+    border: 5px groove #ffaaaa;   
   }
   #workexperience {
-    border: 3px groove #ffaaaa;
+    border: 5px groove #ffaaaa;
   }
   body {
     background: url("https://addons.opera.com/media/CACHE/images/themes/75/37875/1.0-rev1/images/1b6b1378-270e-43ab-b3ac-9e5848754b3e/1fe310acbc8463f5c615640eee529943.jpg")
