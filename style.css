@@ -2,13 +2,13 @@
     font-size: 64px;
     font-family: "Lucida Grande", sans-serif;
     font-variant: small-caps;
-    margin-bottom: -15px;
+    margin: 5px;
     color: #e60000;
-    text-shadow: 3px 2px black;
+    text-shadow: 3px 2px 8px black;
+    text-decoration: underline
   }
   
   h2 {
-    margin-bottom: -15px;
   }
   
   h3 {
@@ -16,15 +16,15 @@
     margin-bottom: -20px;
     font-size: 32px;
     color: black;
-    text-shadow: 1px 1px #e60000;
+    text-shadow: 1px 1px 2px #e60000;
     font-weight: bold;
-  }
+    }
   
   h4 {
     margin-bottom: -10px;
     font-size: 20px;
     color: black;
-    text-shadow: 0px 1px #e60000;
+    text-decoration: underline;
   }
   
   h5 {
@@ -38,30 +38,31 @@
   }
   
   #container {
+    
     display: block;
-    margin: 5 auto;
-    width: 40%;
+    margin: 10 auto;
     text-align: center;
     background: silver;
     width: 780px;
     color: black
   }
   #contact {
-    margin-bottom: 25px;
+    border: 3px groove #ffaaaa;
   }
   #profile {
     font-style: italic;
-    margin-bottom: -50px;
-    border-top: 3px groove #ffaaaa;
-    border-bottom: 3px groove #ffaaaa;
+    border: 3px groove #ffaaaa;    
   }
   #education {
-    padding: 25px;
-    margin-bottom: -15px;
-    border-bottom: 3px groove #ffaaaa;
+    border: 3px groove #ffaaaa;   
   }
   #workexperience {
-    padding-bottom: 15px;
+    border: 3px groove #ffaaaa;
   }
   body {
     background: url("https://addons.opera.com/media/CACHE/images/themes/75/37875/1.0-rev1/images/1b6b1378-270e-43ab-b3ac-9e5848754b3e/1fe310acbc8463f5c615640eee529943.jpg")
+  }
+  #hilton {
+  }
+  #ramys {
+  }
