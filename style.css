@@ -1,81 +1,67 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Brendins Prime Resume</title>
-    <link rel="stylesheet" href="style.css"> 
-  </head>
+  h1 {
+    font-size: 64px;
+    font-family: "Lucida Grande", sans-serif;
+    font-variant: small-caps;
+    margin: 5px;
+    color: #e60000;
+    text-shadow: 3px 3px 8px black;
+    text-decoration: underline;
+  }
   
-  <body>
-    <div id="container">
-      <div id="contact">
-       <h1>Brendin J. Barone</h1>
-        <h2>2801 East 125th St. -- Burnsville, MN 55337 -- (952)-356-2300<br />RobotCityHQ@gmail.com</h2>
-      </div> <!--contact-->
-    
-      <div id="profile">
-        <p>Creatively inspired by life. A punctual free-spirit with a strong work-ethic and an unsatified hunger to learn.<br />A passion for the impossible has always driven me to believe in dreams until they become reality.</p>
-      </div> <!--Profile-->
-    
-      <div id="education">
-        <h3>Education</h3>
-          <h4>Institute of Production and Recording</h4>
-          <h5>Minneapolis, MN (2009-2012)</h5>
-          <p>Areas of Study: Audio Production, Video Editing, Visual Effects, Audio Engineering,
-Songwriting<br /><br />A.A.S.-Music & Entertainment Business    (2012)<br />A.A.S.-Audio Production & Engineering   (2011)</p>
-      </div> <!--Education-->
-    
-      <div id="workexperience">
-        <h3>Work Experience</h3>
-        
-          <div id="Hilton">  
-            <h4>MSP Airport Hilton Hotel</h4>
-            <h5>Bloomington, MN (2012-2017)</h5>
-            <p>Banquet Captain/Houseman/Server</p>
-              <ui>
-                <li>Handle customer needs</li>
-                <li>Establish contact with Client/Cordinators</li>
-                <li>Walkthrough of events with Clients</li>
-                <li>Quickly and thoughouly handle customer needs</li>
-                <li>Set rooms, tables, Serve meals, clean tables, teardown room</li>
-                <li>Bartend</li>
-                <li>Two Time Diamond Service Award Nominee</li>
-              </ui>
-          </div> <!--Hilton-->
-            
-          <div id"Ramys">
-            <h4>Ramy's Mediterranean Cuisine & New York Style Pizzeria</h4>
-            <h5>Apple Valley, MN (2008-2012)</h5>
-            <p>Owner/General Manager</p>
-            <ui>
-              <li>Oversaw day to day operations</li>
-              <li>Establish opening/closing duties</li>
-              <li>Open/close store</li>
-              <li>Interview/hire employees</li>
-              <li>Built social media pressence</li>
-              <li>Design new menus (Illustrator)</li>
-              <li>Weekly Inventory, Schedule, Payroll</li>
-              <li>Create 25+ new recipes</li>
-              <li>Exceed customer needs</li>
-              <li>Settle Employee/Customer issues</li>
-            </ui>
-          </div> <!--Ramys-->
-          
-          <div id="Echo">
-            <h4>Echo Used Cd's & Games</h4>
-            <h5>Apple Valley, MN (2006-2007)</h5>
-              <p>Customer Service</p>
-              <ui>
-                <li>Opened/closed store</li>
-                <li>Purchased inventor from customers</li>
-                <li>Organized backroom/stock</li>
-                <li>Participate in determining price of stock</li>
-              </ui>
-          </div> <!--Echo-->
+  h2 {
+  }
   
-      </div> <!--work Ex-->
+  h3 {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    margin-bottom: -20px;
+    font-size: 32px;
+    color: black;
+    text-shadow: 1px 1px 2px #e60000;
+    }
   
-    </div> <!--container-->
-
-   </body>
-
-</html>
+  h4 {
+    margin-bottom: -10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  h5 {
+    margin-bottom: -15px;
+    font-size: 14px;
+  }
+  
+  p {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  #container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: silver;
+    width: 50%;
+    color: black
+  }
+  #contact {
+    border: 5px groove #ffaaaa;
+  }
+  #profile {
+    font-style: italic;
+    border: 5px groove #ffaaaa;    
+  }
+  #education {
+    border: 5px groove #ffaaaa;   
+  }
+  #workexperience {
+    border: 5px groove #ffaaaa;
+  }
+  body {
+    background: url("https://addons.opera.com/media/CACHE/images/themes/75/37875/1.0-rev1/images/1b6b1378-270e-43ab-b3ac-9e5848754b3e/1fe310acbc8463f5c615640eee529943.jpg")
+  }
+  #hilton {
+  }
+  #ramys {
+  }
